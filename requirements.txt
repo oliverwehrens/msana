@@ -1,0 +1,4 @@
+rumps
+py2app
+requests==2.31.0
+chardet==5.2.0
