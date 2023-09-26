@@ -31,6 +31,7 @@ Look for the 'gid'. This is the number you need to fill in 'workspace'.
 
 Refresh interval for checking for updates.
 
+### config file
 
 ```json
 {
@@ -40,3 +41,9 @@ Refresh interval for checking for updates.
 }
 
 ```
+
+## Compiling
+
+You need Python on your Mac. ```make all``` will produce a binary in the ```dist/``` folder.
+This will not be a cross-cpu (Intel/Apple Silicon) Binary.
+
